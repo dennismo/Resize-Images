@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9517DCE31F590BDB0022CE21 /* resizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517DCE21F590BDB0022CE21 /* resizeImage.swift */; };
+		9517DCE51F5B53480022CE21 /* NSImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517DCE41F5B53480022CE21 /* NSImageExtensions.swift */; };
 		9567C6CF1F58A14F00915285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567C6CE1F58A14F00915285 /* AppDelegate.swift */; };
 		9567C6D11F58A14F00915285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567C6D01F58A14F00915285 /* ViewController.swift */; };
 		9567C6D31F58A14F00915285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9567C6D21F58A14F00915285 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9517DCE21F590BDB0022CE21 /* resizeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resizeImage.swift; sourceTree = "<group>"; };
+		9517DCE41F5B53480022CE21 /* NSImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageExtensions.swift; sourceTree = "<group>"; };
 		9567C6CB1F58A14F00915285 /* ResizingImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizingImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9567C6CE1F58A14F00915285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9567C6D01F58A14F00915285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				9567C6CE1F58A14F00915285 /* AppDelegate.swift */,
 				9567C6D01F58A14F00915285 /* ViewController.swift */,
 				9567C6D21F58A14F00915285 /* Assets.xcassets */,
+				9517DCE21F590BDB0022CE21 /* resizeImage.swift */,
+				9517DCE41F5B53480022CE21 /* NSImageExtensions.swift */,
 				9567C6D41F58A14F00915285 /* Main.storyboard */,
 				9567C6D71F58A14F00915285 /* Info.plist */,
 			);
@@ -133,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9567C6D11F58A14F00915285 /* ViewController.swift in Sources */,
+				9517DCE31F590BDB0022CE21 /* resizeImage.swift in Sources */,
+				9517DCE51F5B53480022CE21 /* NSImageExtensions.swift in Sources */,
 				9567C6CF1F58A14F00915285 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +296,7 @@
 				9567C6DC1F58A14F00915285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
