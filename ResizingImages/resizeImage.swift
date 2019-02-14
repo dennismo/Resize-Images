@@ -11,7 +11,7 @@ import Cocoa
 
 class resizeImage{
     
-
+ 
     public var selectedFolder = FileManager.default.homeDirectoryForCurrentUser
     private var saveFolder = FileManager.default.homeDirectoryForCurrentUser
     public var width:CGFloat = 0.0
